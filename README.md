@@ -28,3 +28,6 @@ fix npm permissions
 sudo npm get prefix
 whoami
 sudo chown -R 'whoami' /usr/local/
+
+get ruby just in case
+sudo atp-get install ruby-full
