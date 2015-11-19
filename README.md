@@ -31,3 +31,12 @@ sudo chown -R 'whoami' /usr/local/
 
 get ruby just in case
 sudo atp-get install ruby-full
+
+
+legutobb igy:
+
+npm install -y -g yo
+echo export PATH="$HOME/npm/bin:$PATH" >> ~/.bashrc
+npm config set prefix ~/npm
+echo "export NODE_PATH=$NODE_PATH:/home/$USER/npm/lib/node_modules" >> ~/.bashrc && source ~/.bashrc
+npm install -y -g yo
